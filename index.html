@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SITAA — UIDAI × MeitY Startup Hub</title>
+
+  <meta name="description" content="SITAA: UIDAI × MeitY Startup Hub — India’s identity tech innovation. Explore scheme details and apply to active challenges." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+
+    :root { --ring: 0 0 0 1px rgba(15,23,42,0.06); }
+
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji','Segoe UI Emoji'; }
+
+    .bg-noise::after{content:'';position:absolute;inset:0;background-image:url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'160\' height=\'160\' viewBox=\'0 0 160 160\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'2\' stitchTiles=\'stitch\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\' opacity=\'0.02\'/></svg>');pointer-events:none;}
+
+    .glass { background: rgba(255,255,255,0.9); backdrop-filter: blur(6px); }
+
+    .card { transition: transform .2s ease, box-shadow .2s ease; }
+
+    .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(2,6,23,0.12); }
+
+    .gradient-text { background: linear-gradient(90deg,#0ea5e9,#10b981,#6366f1); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+    .shine { position: relative; }
+
+    .shine::before{content:'';position:absolute;inset:-1px;border-radius:1.5rem;padding:1px;background:linear-gradient(135deg,rgba(14,165,233,0.4),rgba(16,185,129,0.4),rgba(99,102,241,0.4));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;}
+
+  </style>
+
+</head>
+
+<body class="relative min-h-screen text-slate-800">
+
+  <div class="absolute inset-0 -z-20 bg-gradient-to-b from-cyan-50 via-white to-emerald-50"></div>
+
+  <div class="absolute -z-10 left-1/2 -translate-x-1/2 -top-20 w-[60rem] h-[60rem] rounded-full blur-3xl opacity-30"
+
+       style="background: radial-gradient(closest-side, rgba(99,102,241,.35), transparent 70%)"></div>
+
+  <div class="absolute -z-10 right-[-10rem] top-40 w-[40rem] h-[40rem] rounded-full blur-3xl opacity-30"
+
+       style="background: radial-gradient(closest-side, rgba(16,185,129,.35), transparent 70%)"></div>
+
+  <div class="bg-noise absolute inset-0 -z-10"></div>
+
+
+
+  <header class="relative">
+
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 flex items-center justify-between">
+
+      <div class="flex items-center gap-3">
+
+  <img src="uidai-logo.png" alt="UIDAI Logo" class="h-12 w-auto object-contain">
+
+  <span class="text-slate-400 font-bold">×</span>
+
+  <img src="msh-logo.png" alt="MeitY Startup Hub Logo" class="h-12 w-auto object-contain">
+
+</div>
+
+      <a href="#apply" class="rounded-full bg-slate-900 text-white px-4 py-2 text-sm shadow hover:bg-slate-800">View Open Challenges</a>
+
+    </div>
+
+
+
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-14">
+
+      <span class="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-3 py-1 text-emerald-700 text-xs ring-1 ring-emerald-200">SITAA — Scheme for Innovation & Technology Association with Aadhaar</span>
+
+      <h1 class="mt-5 text-4xl sm:text-6xl font-extrabold leading-tight text-slate-900">
+
+        Accelerating India’s <span class="gradient-text">Identity Tech innovation</span>
+
+      </h1>
+
+      <p class="mt-4 text-base sm:text-lg text-slate-700 max-w-2xl">
+
+        UIDAI, in partnership with MeitY Startup Hub, invites startups and research teams to build, test, and scale privacy‑preserving identity technologies. Explore the SITAA scheme and apply to active challenges below.
+
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+
+        <a href="#about" class="rounded-xl bg-white px-4 py-2 text-slate-900 ring-1 ring-slate-200 shadow-sm hover:ring-slate-300">About SITAA</a>
+
+        <a href="#apply" class="rounded-xl bg-slate-900 px-4 py-2 text-white shadow hover:bg-slate-800">Open Challenges</a>
+
+        <a href="#resources" class="rounded-xl bg-indigo-50 px-4 py-2 text-indigo-700 ring-1 ring-indigo-200 hover:bg-indigo-100">Guidelines & Docs</a>
+
+      </div>
+
+
+
+      <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
+
+        <div class="glass rounded-2xl p-4 ring-1 ring-slate-200 text-center">
+
+          <div class="text-xs text-slate-600">Challenges for Startups</div>
+
+          <div class="text-2xl font-bold text-slate-900">2</div>
+
+        </div>
+
+        <div class="glass rounded-2xl p-4 ring-1 ring-slate-200 text-center">
+
+          <div class="text-xs text-slate-600">Challenges for Academia</div>
+
+          <div class="text-2xl font-bold text-slate-900">1</div>
+
+        </div>
+
+        <div class="glass rounded-2xl p-4 ring-1 ring-slate-200 text-center">
+
+          <div class="text-xs text-slate-600">Funding Startup(up to)</div>
+
+          <div class="text-2xl font-bold text-slate-900">₹2.5 Cr</div>
+
+        </div>
+
+        <div class="glass rounded-2xl p-4 ring-1 ring-slate-200 text-center">
+
+          <div class="text-xs text-slate-600">Funding Academia(up to)</div>
+
+          <div class="text-2xl font-bold text-slate-900">₹5 Cr</div>
+
+        </div>
+
+      </div>
+
+      <div class="mt-3 text-xs text-slate-600">Milestone grants: 20% (PDD) · 20% (PoC) · 30% (Beta) · 30% (Pre‑commercial)</div>
+
+    </div>
+
+  </header>
+
+  <section id="apply" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2">
+
+    <div class="flex items-end justify-between gap-4">
+
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Innovation Challenges</h2>
+
+    </div>
+
+    <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <article class="card rounded-3xl bg-white p-5 ring-1 ring-slate-200">
+
+        <div class="flex items-center justify-between">
+
+          <span class="inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-700 ring-1 ring-slate-200">For Startups Only</span>
+
+        </div>
+
+        <h3 class="mt-3 text-lg font-semibold text-slate-900">Contactless Fingerprint Authentication</h3>
+
+        <p class="mt-2 text-sm text-slate-600">Build a mobile-first SDK for hygienic, scalable fingerprint capture without contact.</p>
+
+        <div class="mt-3 flex items-center justify-between text-sm">
+
+          <a href="docs/Contactless-Fingerprint.pdf" class="text-indigo-600 hover:underline">Download Brief</a>
+
+          <a href="https://msh.meity.gov.in/challenges/home/5f56490b-947e-4893-b9da-fe11f15251ec" target="_blank" class="rounded-xl bg-slate-900 px-4 py-2 text-white shadow hover:bg-slate-800">Apply</a>
+
+        </div>
+
+      </article>
+
+
+
+      <article class="card rounded-3xl bg-white p-5 ring-1 ring-slate-200">
+
+        <div class="flex items-center justify-between">
+
+          <span class="inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-700 ring-1 ring-slate-200">For Startups Only</span>
+
+        </div>
+
+        <h3 class="mt-3 text-lg font-semibold text-slate-900">Face Liveness Detection</h3>
+
+        <p class="mt-2 text-sm text-slate-600">Robust passive/active liveness against spoofs; real‑time and privacy‑safe.</p>
+
+        <div class="mt-3 flex items-center justify-between text-sm">
+
+          <a href="docs/Face-Liveness-Detection.pdf" class="text-indigo-600 hover:underline">Download Brief</a>
+
+          <a href="https://msh.meity.gov.in/challenges/home/7ab277c8-43f7-423b-8edf-2e4acbbdcac2" target="_blank" class="rounded-xl bg-slate-900 px-4 py-2 text-white shadow hover:bg-slate-800">Apply</a>
+
+        </div>
+
+      </article>
+
+
+
+      <article class="card rounded-3xl bg-white p-5 ring-1 ring-slate-200">
+
+        <div class="flex items-center justify-between">
+
+          <span class="inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-700 ring-1 ring-slate-200">For Academia Only</span>
+
+        </div>
+
+        <h3 class="mt-3 text-lg font-semibold text-slate-900">Presentation Attack Detection (PAD)</h3>
+
+        <p class="mt-2 text-sm text-slate-600">Development shall enable UIDAI to strengthen Aadhaar’s authentication framework in a
+
+proactive, evidence-based manner.</p>
+
+        <div class="mt-3 flex items-center justify-between text-sm">
+
+          <a href="docs/PAD.pdf" class="text-indigo-600 hover:underline">Download Brief</a>
+
+          <a href="https://msh.meity.gov.in/challenges/home/35ed1bc3-26e1-4aef-99ee-3f759a530f55" target="_blank" class="rounded-xl bg-slate-900 px-4 py-2 text-white shadow hover:bg-slate-800">Apply</a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-2">
+
+    <div class="overflow-hidden rounded-2xl ring-1 ring-slate-200 bg-white/80 backdrop-blur">
+
+      <div class="bg-slate-50 px-4 py-2 text-sm font-medium text-slate-700">Important Dates</div>
+
+      <div class="grid md:grid-cols-4">
+
+        <div class="flex items-center gap-3 p-4 ring-1 ring-slate-100/60">
+
+          <div class="h-8 w-8 rounded-lg bg-indigo-100 grid place-items-center text-indigo-700 text-sm">1</div>
+
+          <div><div class="text-xs text-slate-600">Applications Open</div><div class="text-sm font-medium">13th October,2025</div></div>
+
+        </div>
+
+        <div class="flex items-center gap-3 p-4 ring-1 ring-slate-100/60">
+
+          <div class="h-8 w-8 rounded-lg bg-indigo-100 grid place-items-center text-indigo-700 text-sm">2</div>
+
+          <div><div class="text-xs text-slate-600">Last Date to Apply</div><div class="text-sm font-medium">30th October, 2025</div></div>
+
+        </div>
+
+        <div class="flex items-center gap-3 p-4 ring-1 ring-slate-100/60">
+
+          <div class="h-8 w-8 rounded-lg bg-indigo-100 grid place-items-center text-indigo-700 text-sm">3</div>
+
+          <div><div class="text-xs text-slate-600">Total Challenges</div><div class="text-sm font-medium">3</div></div>
+
+        </div>
+
+        <div class="flex items-center gap-3 p-4 ring-1 ring-slate-100/60">
+
+          <div class="h-8 w-8 rounded-lg bg-indigo-100 grid place-items-center text-indigo-700 text-sm">4</div>
+
+          <div><div class="text-xs text-slate-600">Commencement of Stage 1</div><div class="text-sm font-medium">TBA</div></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="resources" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+
+    <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Guidelines & Resources</h2>
+
+    <div class="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+      <a href="docs/SITAA_v01.pdf" class="card rounded-2xl bg-white p-4 ring-1 ring-slate-200 hover:ring-slate-300">
+
+        <div class="flex items-center gap-3">
+
+          <div class="h-10 w-10 rounded-lg bg-slate-100 grid place-items-center">📄</div>
+
+          <span class="text-sm font-medium text-slate-800">SITAA Operational Guidelines (PDF)</span>
+
+        </div>
+
+      </a>
+
+      <a href="https://msh.meity.gov.in/" class="card rounded-2xl bg-white p-4 ring-1 ring-slate-200 hover:ring-slate-300">
+
+        <div class="flex items-center gap-3">
+
+          <div class="h-10 w-10 rounded-lg bg-slate-100 grid place-items-center">🧪</div>
+
+          <span class="text-sm font-medium text-slate-800">MSH Website</span>
+
+        </div>
+
+      </a>
+
+      <a href="https://uidai.gov.in/en/" class="card rounded-2xl bg-white p-4 ring-1 ring-slate-200 hover:ring-slate-300">
+
+        <div class="flex items-center gap-3">
+
+          <div class="h-10 w-10 rounded-lg bg-slate-100 grid place-items-center">🚀</div>
+
+          <span class="text-sm font-medium text-slate-800">UIDAI Website</span>
+
+        </div>
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-12">
+
+    <div class="rounded-3xl bg-gradient-to-br from-slate-900 to-slate-800 p-6 text-white shadow-lg">
+
+      <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+
+        <div>
+
+          <h3 class="text-2xl font-bold">Ready to apply ?</h3>
+
+          <p class="mt-1 text-white/80 text-sm">For technical queries, please reach out to the MSH team.</p>
+
+        </div>
+
+        <div class="flex gap-3">
+
+          <a href="mailto:executiveportal-msh@govcontractor.in" class="rounded-xl bg-white px-4 py-2 text-slate-900 shadow">Email MSH</a>
+
+          <a href="#apply" class="rounded-xl bg-emerald-500/90 px-4 py-2 text-white shadow hover:bg-emerald-500">View Open Challenges</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <footer class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 text-xs text-slate-500">
+
+    © <script>document.write(new Date().getFullYear())</script> UIDAI × MeitY Startup Hub • SITAA
+
+  </footer>
+
+</body>
+
+</html>
+
