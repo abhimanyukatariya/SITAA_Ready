@@ -21,7 +21,10 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
-
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
     :root { --ring: 0 0 0 1px rgba(15,23,42,0.06); }
 
     body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji','Segoe UI Emoji'; }
@@ -77,13 +80,13 @@
 </div>
 
 <h1 class="mt-6 text-4xl sm:text-6xl font-extrabold leading-tight text-slate-900">
-  Accelerating India’s <span class="gradient-text">Identity Tech innovation</span>
+  Building <span class="gradient-text">Bharat's ID Tech</span> Ecosystem
 </h1>
 
 
-      <p class="mt-4 text-base sm:text-lg text-slate-700 max-w-2xl">
+      <p class="mt-4 text-base sm:text-lg text-slate-700 max-w-none leading-relaxed">
 
-        UIDAI, in partnership with MeitY Startup Hub, invites startups and research teams to build, test, and scale privacy‑preserving identity technologies. Explore the SITAA scheme and apply to active challenges below.
+        To foster open innovation under the SITAA initiative, UIDAI invites startups and academic institutions to develop indigenous, scalable ID-Tech solutions that enhance the Aadhaar ecosystem and strengthen India’s Digital Public Infrastructure.
 
       </p>
 
@@ -114,17 +117,21 @@
 
         <div class="glass rounded-2xl p-4 ring-1 ring-slate-200 text-center">
 
-          <div class="text-xs text-slate-600">Funding Startup(up to)</div>
+          <div class="text-xs text-slate-600">Funding Startup</div>
 
-          <div class="text-2xl font-bold text-slate-900">₹2.5 Cr</div>
+          <div class="text-2xl font-bold text-slate-900">
+  <span class="text-base font-medium text-slate-600 align-middle">Up to </span>₹2.5 Cr.</div>
+
+
 
         </div>
 
         <div class="glass rounded-2xl p-4 ring-1 ring-slate-200 text-center">
 
-          <div class="text-xs text-slate-600">Funding Academia(up to)</div>
+          <div class="text-xs text-slate-600">Funding Academia</div>
 
-          <div class="text-2xl font-bold text-slate-900">₹5 Cr</div>
+          <div class="text-2xl font-bold text-slate-900">
+  <span class="text-base font-medium text-slate-600 align-middle">Up to </span>₹5 Cr.</div>
 
         </div>
       </div>
@@ -139,11 +146,11 @@
   <div class="mt-4 space-y-6">
 
     <!-- STARTUPS GROUP -->
-    <section class="rounded-3xl ring-1 ring-slate-200 bg-white/70 backdrop-blur p-5">
+    <section class="rounded-3xl ring-1 ring-slate-200 p-6 mb-8 bg-emerald-50/60">
       <div class="flex items-center justify-between mb-4">
         <div class="flex items-center gap-3">
-          <span class="inline-flex items-center rounded-full bg-slate-900 text-white px-3 py-1 text-xs">Audience</span>
-          <h3 class="text-xl font-semibold text-slate-900">Startups</h3>
+          <span class="px-3 py-1 text-xs">Audience</span>
+          <h3 class="inline-flex items-center rounded-full bg-cyan-800 text-white px-3 py-1 text-xl font-semibold text-slate-900">Startups</h3>
         </div>
         <span class="text-xs text-slate-500">2 challenges</span>
       </div>
@@ -154,7 +161,7 @@
           <span class="inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-700 ring-1 ring-slate-200">For Startups Only</span>
           <h4 class="mt-3 text-lg font-semibold text-slate-900">Contactless Fingerprint Authentication</h4>
           <p class="mt-2 text-sm text-slate-600">
-            Build a mobile-first SDK for hygienic, scalable fingerprint capture without contact.
+            To develop AI/ML-based solutions for contactless finger authentication, enabling accurate identity verification without physical touch and evaluate models for image capture, feature extraction, and matching under varied lighting and angles, ensuring high accuracy, speed, and spoof resistance for secure biometric authentication.
           </p>
           <div class="mt-5 flex items-end justify-end text-sm">
             <a href="https://msh.meity.gov.in/challenges/home/5f56490b-947e-4893-b9da-fe11f15251ec" target="_blank"
@@ -167,9 +174,9 @@
           <span class="inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-700 ring-1 ring-slate-200">For Startups Only</span>
           <h4 class="mt-3 text-lg font-semibold text-slate-900">Face Liveness Detection</h4>
           <p class="mt-2 text-sm text-slate-600">
-            Robust passive/active liveness against spoofs; real-time and privacy-safe.
+            To develop AI/ML-based face liveness detection systems that integrate both passive and active liveness methods and capable of detecting physical attacks (print, replay, masks, morphs) and digital attacks (deepfakes, adversarial manipulations).
           </p>
-          <div class="mt-5 flex items-end justify-end text-sm">
+          <div class="mt-10 flex items-end justify-end text-sm">
             <a href="https://msh.meity.gov.in/challenges/home/7ab277c8-43f7-423b-8edf-2e4acbbdcac2" target="_blank"
                class="rounded-xl bg-slate-900 px-4 py-2 text-white shadow hover:bg-slate-800">Know more</a>
           </div>
@@ -181,8 +188,8 @@
     <section class="rounded-3xl ring-1 ring-indigo-200/70 bg-indigo-50/50 p-5">
       <div class="flex items-center justify-between mb-4">
         <div class="flex items-center gap-3">
-          <span class="inline-flex items-center rounded-full bg-indigo-600 text-white px-3 py-1 text-xs">Audience</span>
-          <h3 class="text-xl font-semibold text-slate-900">Academia</h3>
+          <span class="px-3 py-1 text-xs">Audience</span>
+          <h3 class="inline-flex items-center rounded-full bg-indigo-600 text-white px-3 py-1 text-xl font-semibold text-slate-900">Academia</h3>
         </div>
         <span class="text-xs text-slate-500">1 challenge</span>
       </div>
@@ -192,8 +199,7 @@
           <span class="inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-700 ring-1 ring-slate-200">For Academia Only</span>
           <h4 class="mt-3 text-lg font-semibold text-slate-900">Presentation Attack Detection (PAD)</h4>
           <p class="mt-2 text-sm text-slate-600">
-            Development shall enable UIDAI to strengthen Aadhaar’s authentication framework in a
-            proactive, evidence-based manner.
+            To create Datasets, Research and Develop AI/ML-based Presentation Attack Detection (PAD) techniques to identify and prevent spoofing attempts during face authentication.
           </p>
           <div class="mt-5 flex items-end justify-end text-sm">
             <a href="https://msh.meity.gov.in/challenges/home/35ed1bc3-26e1-4aef-99ee-3f759a530f55" target="_blank"
@@ -239,12 +245,8 @@
   <div class="rounded-3xl bg-gradient-to-br from-slate-900 to-slate-800 p-6 text-white shadow-lg">
     <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
       <div>
-        <h3 class="text-2xl font-bold">For Additional queries?</h3>
-        <p class="mt-1 text-white/80 text-sm">For technical queries, please reach out to the MSH team.</p>
-      </div>
-      <div>
-        <a href="mailto:executiveportal-msh@govcontractor.in"
-           class="rounded-xl bg-white px-5 py-4 text-slate-900 shadow">Email MSH</a>
+        <h3 class="text-2xl font-bold">For technical queries, please reach out to the MSH team.</h3>
+        <p class="mt-1 text-white/80 text-sm">Mail ID - executiveportal-msh@govcontractor.in </p>
       </div>
     </div>
   </div>
@@ -253,7 +255,7 @@
 
 
 
-  <footer class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 text-xs text-slate-500">
+  <footer class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 text-xs text-slate-500">
 
     © <script>document.write(new Date().getFullYear())</script> UIDAI × MeitY Startup Hub • SITAA
 
